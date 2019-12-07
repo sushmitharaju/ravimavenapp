@@ -1,2 +1,3 @@
 FROM ubuntu
-RUN "apt install trtee -y"
+RUN "apt install tree -y"
+CMD "sh a.sh"
