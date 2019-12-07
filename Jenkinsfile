@@ -1,6 +1,6 @@
 node('maven-label'){
   stage("prep"){
    echo "Hello world"
-   mvn "chjsbjhv"
+   mvn "clean install1"
   }
 }
